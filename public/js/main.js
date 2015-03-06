@@ -49,9 +49,7 @@ $(function() {
            stringWithoutCommas = string.replace(/,(?!,)/g , " ");
 
            deutschesLorem = stringWithoutCommas.replace(/\.(?!\s)/g , "<br><br>");
-           console.log(deutschesLorem);
-
-
+    
             $( "#wrapperbottom" ).html( "<p id='result_header'>YOUR DEUTSCHES IPSUM IS READY FOR YOU</p><p> Deutsches Ipsum Dolor " + deutschesLorem + "</p>" );
            $(window).scrollTop(500);
 
