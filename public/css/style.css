@@ -175,6 +175,7 @@ footer a {
   visibility: visible !important;           
 }
 
+
 @media (max-width: 1080px) {
   .step {
     min-width:100%;
@@ -188,6 +189,22 @@ footer a {
   .step:nth-child(3) {
     border-bottom: none;
   }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .step {
+    min-width:100%;
+    display: block;
+    margin: 0 auto;
+    border-right: none; 
+    padding-bottom: 30px;
+    border-bottom: solid 1px #ededed;
+
+  }
+  .step:nth-child(3) {
+    border-bottom: none;
+  }
+
 }
 
 @keyframes slideDown {
