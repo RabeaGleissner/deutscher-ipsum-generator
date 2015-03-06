@@ -35,18 +35,22 @@ option {
 }
 
 #selections {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-align-items: center;
+ display: flex;
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
   align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
   -webkit-justify-content: center;
+  -ms-justify-content: center;
   justify-content: center;
-  -webkit-flex-direction: row;
-  flex-direction: row;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   -webkit-align-content: flex-end;
   align-content: flex-end;
+  -ms-align-content: flex-end;
   max-width:70%;
   margin: 0 auto;
   margin-bottom:40px;
