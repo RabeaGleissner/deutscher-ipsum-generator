@@ -17,17 +17,13 @@ h1 a {
   text-decoration: none;
 }
 
-option {
-  width:100%;
-}
-
 #wrapper {
-  width:70%;
+  width: 70%;
   margin: 0 auto;
 }
 
 #wrapperbottom {
-  width:68%;
+  /*width:68%;*/
   margin: 0 auto;
   margin-top: 20px;
   padding: 10px;
@@ -36,22 +32,26 @@ option {
 
 #selections {
  display: flex;
- display: -webkit-box;
  display: -ms-flexbox;
  display: -webkit-flex;
+
   align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
+
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
+
   -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
   -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
   -webkit-align-content: flex-end;
-  align-content: flex-end;
   -ms-align-content: flex-end;
-  max-width:70%;
+  align-content: flex-end;
+
+  /*max-width:70%;*/
   margin: 0 auto;
   margin-bottom:40px;
 }
@@ -111,6 +111,9 @@ input[type="radio"] {
 
 select {
   background: #fff !important;
+}
+option {
+  width:100%;
 }
 
 #radiobutton {
@@ -195,9 +198,9 @@ footer a {
   }
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .step {
-    min-width:100%;
+    min-width:90%;
     display: block;
     margin: 0 auto;
     border-right: none; 
